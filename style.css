@@ -201,7 +201,7 @@ margin: auto;
 	width: 50%;
 	padding-left: 50px;
 	padding-right: 50px;
-margin-bottom: 0px;
+	margin-bottom: 0px;
 
 }
 
@@ -294,3 +294,5 @@ padding-right: 50px;
 #bottom a:hover{color: blue;}
 
 #bottom p{font-size: 9px;}
+
+#bottom #contact{border-right: none;}
