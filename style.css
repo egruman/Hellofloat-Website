@@ -173,6 +173,16 @@ a {
 	.cool h1{ font-size: 55px;}
 	.cool h2{ font-size: 35px;}
 
+#grad{
+background: linear-gradient(to right, turquoise, blue);
+width: 50%;
+height: 5px;
+margin: auto;
+padding-left: 50px;
+	padding-right: 50px;
+
+}
+
 #soon #list {
 	text-align: center;
 	background-color: white;
@@ -182,13 +192,17 @@ a {
 margin: auto;
 	padding-left: 50px;
 	padding-right: 50px;
-	border-top: solid linear-gradient(to right, turquoise, blue);
+	
 
 }
 
 #soon img
 {
 	width: 50%;
+	padding-left: 50px;
+	padding-right: 50px;
+margin-bottom: 0px;
+
 }
 
 #list h3{
