@@ -1,0 +1,217 @@
+#welcome {
+		padding-left: 200px;
+		padding-top: 300px;
+		padding-bottom: 100px;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+		color: black;
+}
+
+
+#welcome h1{color: darkturquoise; font-size: 80px;}
+
+#welcome h2{margin-bottom: 5px;font-size: 45px;}
+
+#welcome h3{margin-top: 5px;}
+
+#welcome img {padding-top: 15px;}
+
+.hhh {display: inline-block;}
+#abt{width: 320px; text-align: left; font-size: 30px;
+padding-left: 20px;}
+
+#phone{width: 250px;
+	height: 520px;}
+
+h1{
+margin-bottom: 0px;}
+
+body{
+font-family:  Avenir;
+ margin-top: 0px;
+margin-bottom: 0px;
+}
+
+h1{
+font-size: 70px;
+}
+
+h2{
+font-size: 27;
+padding-top: 0px;
+	padding-bottom: 0px;
+
+
+}
+h3{
+	font-size: 20px;
+}
+
+
+.navbar {
+ 	z-index: 10;
+	background-color: white;
+	width: 100%;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	text-align: left;
+	color: black;
+	position: fixed;
+	display: inline;
+}
+
+
+.navbar ul {
+	display: inline;
+	list-style-type: none;
+	text-align: right;
+	padding-left: 40%;
+
+}
+
+
+.navbar  img{
+	width: 200px;
+	height: 100px;
+}
+
+.navbar  #logo{
+	padding-top: 50px;
+}
+
+
+.navbar li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 25px;
+	display: inline;
+	
+}
+
+.navbar a {
+	color: black;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.top {
+display: inline;
+}
+
+#prio{border-left: solid turquoise;}
+
+#p{color: turquoise !important;}
+
+#about{border-bottom: solid black;}
+
+#EIA {
+	background: linear-gradient(to right, turquoise, blue);
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.stuff {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+
+.stuff img{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+padding-bottom: 10px;
+}
+
+.stuff h3 {
+	color: #DDDDDD;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+#perks {
+	text-align: center;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 70px;	
+
+}
+
+#perks #btn{
+	border-radius: 25px ;
+	height: 50px;
+	background: linear-gradient(to right, turquoise, blue);
+	width: 230px;
+	color: white;
+	margin-top: 40px
+}
+
+#follow #logo{
+	height: 70px;
+	width: 230px;
+	padding-left: 50px;
+}
+
+#follow #smstuff img{
+	height: 60px;
+	width: 60px;
+}
+#follow #smstuff{
+	padding-left: 50%;
+
+}
+#follow #smstuff a{
+padding-right: 30px;
+}
+
+#follow p {
+	font-size: 20px;
+	color: #CCCCCC;
+	padding-left: 30px;
+}
+
+#follow .sm{display: inline-block;}
+
+
+#follow{padding-bottom: 30px;padding-top: 30px;}
+
+#bottom li {
+	display: inline;
+	border-right: solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+}
+
+#bottom ul{margin-top: 0px;}
+#bottom {
+	text-align: center;
+	border-top: solid #BBBBBB;
+	padding-top: 50px;
+	width: 70%;
+	margin: auto;
+
+}
+
+#bottom a{color: black;}
+
+#bottom a:hover{color: blue;}
+
+#bottom p{font-size: 9px;}
+
+#bottom #contact{border-right: none;}
+
