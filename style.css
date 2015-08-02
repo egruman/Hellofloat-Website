@@ -1,23 +1,26 @@
 #welcome {
-		padding-left: 200px;
-		padding-top: 300px;
-		padding-bottom: 50px;
         text-align: left;
-        background: url('http://www.duartconsultants.com/wp-content/uploads/2015/01/80005000_3.jpg');
+        background-image: url('http://www.firewalkerapps.com/wp-content/uploads/2014/10/shutterstock_132642821.jpg');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
 		color: white;
 }
 
+#wel{background-color: rgba(0,0,0,0.3);
+background-size: cover;
+padding-left: 200px;
+		padding-top: 300px;
+		padding-bottom: 50px;}
+
 #GET
 {
 	margin-top: 30px;
 	margin-left: 40%;
-	border-radius: 25px ;
-	height: 50px;
+	border-radius: 32px ;
+	height: 64px;
 	background-color: white;
-	width: 200px;
+	width: 230px;
 	color: grey;
 	font-size: 20px;
 	opacity: 0.9;
@@ -52,7 +55,7 @@ h3{
 
 .stuffel h2
 {
-	color: turquoise;
+	color: darkturquoise;
 }
 
 .navbar {
@@ -222,7 +225,7 @@ margin: auto;
 }
 
 #list h3{
-	color: turquoise;
+	color: darkturquoise;
 	padding-bottom: 30px;
 }
 
