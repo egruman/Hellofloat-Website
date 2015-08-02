@@ -1,52 +1,32 @@
 #welcome {
-		padding-left: 200px;
 		padding-top: 300px;
-		padding-bottom: 100px;
+	padding-bottom: 0px;
         text-align: center;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
 		color: black;
+	background-image: url("http://bna-art.s3.amazonaws.com/www.bootsnall.com/articles/wp-content/uploads/2010/11/hiker.jpg");
 }
 
 
-#welcome h1{color: darkturquoise; font-size: 80px;}
+#welcome h1{color: white; font-size: 80px; padding-bottom: 100px;}
 
-#welcome h2{margin-bottom: 5px;font-size: 45px;}
-
-#welcome h3{margin-top: 5px;}
-
-#welcome img {padding-top: 15px;}
-
-.hhh {display: inline-block;}
-#abt{width: 320px; text-align: left; font-size: 30px;
-padding-left: 20px;}
+#abt{text-align: left; font-size: 20px;
+background-color: rgba(00,00,00,0.7);
+border: solid darkturquoise; padding: 50px; 
+margin: auto; width: 80%; margin-bottom: 0px; }
 
 #phone{width: 250px;
 	height: 520px;}
 
 h1{
-margin-bottom: 0px;}
+margin-bottom: 0px;font-size: 70px;}
 
 body{
 font-family:  Avenir;
  margin-top: 0px;
 margin-bottom: 0px;
-}
-
-h1{
-font-size: 70px;
-}
-
-h2{
-font-size: 27;
-padding-top: 0px;
-	padding-bottom: 0px;
-
-
-}
-h3{
-	font-size: 20px;
 }
 
 
@@ -110,40 +90,13 @@ display: inline;
 
 #about{border-bottom: solid #BBBBBB;}
 
-#EIA {
-	background: linear-gradient(to right, turquoise, blue);
-	color: white;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.stuff {
-	padding-top: 50px;
-	padding-right: 30px;
-	padding-left: 30px;
-	display: inline-block;
-}
-
-
-.stuff img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-padding-bottom: 10px;
-}
-
-.stuff h3 {
-	color: #DDDDDD;
-}
-
 a {
 	text-decoration: none;
 }
 
 
 
-#perks {
+#more {
 	text-align: center;
 	background-color: white;
 	padding-top: 50px;
@@ -151,13 +104,18 @@ a {
 
 }
 
-#perks #btn{
+#more input{
 	border-radius: 25px ;
 	height: 50px;
-	background: linear-gradient(to right, turquoise, blue);
+	background-color: white;
 	width: 230px;
-	color: white;
+	color: darkcyan;
 	margin-top: 40px
+	display: inline-block;
+	border: solid darkturquoise;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
 }
 
 #gradd {
