@@ -1,3 +1,93 @@
+#overlay {
+	padding-top: 20px;
+	//display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,110,128, 0.9);
+    z-index: 11;
+	text-align: center;
+}
+
+#close {
+	width: 40px;
+	height: 40px;
+}
+
+#cls {text-align: right; padding-right: 40px; margin-bottom: 0px;}
+
+#icon{width: 400px; height: 200px;
+margin-top: 50px;}
+
+.inp{
+	border-radius: 10px ;
+	height: 40px;
+	width: 450px;
+	text-align: center;
+	background-color: transparent;
+	border: solid white;
+	color: white;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+#app{width: 200px; height: 60px; padding-top: 30px;
+margin-top: 30px;
+}
+
+#snd {
+	border-radius: 20px ;
+	height: 40px;
+	background-color: white;
+	border: solid white;
+	width: 110px;
+	color: darkturquoise;
+	font-size: 15px;
+}
+
+#joinlist {
+	border-radius: 25px;
+	height: 50px;
+	background-color: salmon;
+	border: solid salmon;
+	width: 240px;
+	color: white;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+#overlay h1{
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	}
+
+#overlay h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+#overlay h1:before,
+#overlay h1:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 300px;
+}
+#overlay h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+#overlay h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
 #welcome {
         text-align: left;
         background-image: url('http://www.firewalkerapps.com/wp-content/uploads/2014/10/shutterstock_132642821.jpg');
@@ -20,6 +110,7 @@ padding-left: 200px;
 	border-radius: 32px ;
 	height: 64px;
 	background-color: white;
+	border: solid white;
 	width: 230px;
 	color: grey;
 	font-size: 20px;
@@ -62,7 +153,7 @@ h3{
  	z-index: 10;
 	background-color: white;
 	width: 100%;
-	padding-bottom: 20px;
+	padding-top: 20px;
 	padding-left: 50px;
 	text-align: left;
 	color: black;
@@ -97,8 +188,7 @@ h3{
 padding-bottom: 50px;
 }
 
-#phone
-{
+#phone {
 	width: 250px;
 	height: 820px;
 }
@@ -255,6 +345,7 @@ padding-bottom: 20px;
 	background: linear-gradient(to right, turquoise, blue);
 	width: 130px;
 	color: white;
+	border: none;
 }
 
 #list input{
