@@ -1,6 +1,6 @@
 .navbar {
  	z-index: 10;
-	background-color: white;
+	background-color: #F0F0F8;
 	width: 100%;
 	padding-top: 50px;
 	padding-left: 50px;
@@ -9,6 +9,7 @@
 	color: black;
 	position: fixed;
 	display: inline;
+	border-bottom: solid white 10px;
 }
 
 

@@ -61,6 +61,8 @@ h3{
 .block {
 	display: inline-block;
 	padding-right: 70px;
+	padding-left: 70px;
+
 
 }
 
@@ -70,6 +72,7 @@ h3{
 	height: 100px;
 	display: inline-block;
 padding-bottom: 50px;
+	padding-right: 50px;
 }
 
 #phone {
@@ -93,6 +96,7 @@ a {
 	text-align: right;
 	color: turquoise;
 	padding-right: 200px;
+	padding-bottom: 50px;
 }
 
 #carpediem {
