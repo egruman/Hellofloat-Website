@@ -21,16 +21,27 @@
 #icon{width: 400px; height: 200px;
 margin-top: 50px;}
 
-.inp{
+#overlay .form{
 	border-radius: 10px ;
-	height: 40px;
-	width: 450px;
+	border: solid #DDDDDD;
+	margin-top: 30px;
+	width: 480px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: auto;
+}
+
+#overlay .inp{
+	border: none;
 	text-align: center;
 	background-color: transparent;
-	border: solid white;
 	color: white;
 	font-size: 15px;
-	margin-top: 30px;
+	height: 35px;
+	width: 340px;
+	display; inline;
+	
 }
 
 #app{width: 200px; height: 60px; padding-top: 30px;
@@ -39,7 +50,7 @@ margin-top: 30px;
 
 #snd {
 	border-radius: 20px ;
-	height: 40px;
+	height: 35px;
 	background-color: white;
 	border: solid white;
 	width: 110px;
