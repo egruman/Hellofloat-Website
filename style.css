@@ -16,7 +16,6 @@ padding-left: 200px;
 #GET
 {
 	margin-top: 30px;
-	margin-left: 40%;
 	border-radius: 32px ;
 	height: 64px;
 	background-color: white;
@@ -27,6 +26,7 @@ padding-left: 200px;
 	opacity: 0.9;
 }
 
+#welcome p{text-align: center;}
 #welcome h2{margin-bottom: 5px;}
 
 #welcome h3{margin-top: 5px;}
@@ -34,11 +34,6 @@ padding-left: 200px;
 h1{
 margin-bottom: 0px;}
 
-body{
-font-family:  Avenir;
- margin-top: 0px;
-margin-bottom: 0px;
-}
 h1{
 font-size: 100px;
 }
@@ -57,27 +52,6 @@ h3{
 .stuffel h2
 {
 	color: darkturquoise;
-}
-
-.navbar {
- 	z-index: 10;
-	background-color: white;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 50px;
-	text-align: left;
-	color: black;
-	position: fixed;
-	display: inline;
-}
-
-
-.navbar ul {
-	display: inline;
-	list-style-type: none;
-	text-align: right;
-	padding-left: 40%;
-
 }
 
 .stuffel {
@@ -103,54 +77,10 @@ padding-bottom: 50px;
 	height: 820px;
 }
 
-
-.navbar  img{
-	width: 200px;
-	height: 100px;
-}
-
-.navbar  #logo{
-	padding-top: 50px;
-}
-
-
-.navbar li {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
-	font-size: 25px;
-	display: inline;
-	
-}
-
-.top {
-display: inline;
-}
-
-
-#prio
-{
-	border-left: solid turquoise;
-	color: turquoise !important;
-}
-
-#p
-{
-	color: turquoise;
-}
-
-.navbar a {
-	color: black;
-}
-
 a {
 	text-decoration: none;
 }
 
-.navbar a:hover {
-    color: blue;
-}
 
 #bye {
 	text-align: left;
