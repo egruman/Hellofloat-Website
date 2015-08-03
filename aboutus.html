@@ -5,10 +5,35 @@
 	<head>
 <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/risestarhand" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="https://hellofloat.com/assets/images/float-logo.png" type="image/png" sizes="16x16">
-<title>Hello Float</title>
-	<script src=""></script>
+<title>Hello Float- Team</title>
+	<script>
+function prio() {
+    document.getElementById("overlay").style.display = "initial";
+}
+
+function close() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
 	<link rel="stylesheet" href="aboutus-style.css">
+	<link rel="stylesheet" href="overlay-style.css">
+	<link rel="stylesheet" href="ending-style.css">
 </head>
+
+<div id="overlay">
+<p id="cls"><a href="javascript:close();"><img id="close" src="http://synth.media.mit.edu/patchwerk/img/x_close.png"></a> </p>
+
+<img id="icon" src="http://hellofloat.com/assets/images/float-logo.png">
+<br>
+<input type="phone" class="inp" placeholder="Enter your phone number to get Priority Access">
+<input type="submit" id="snd" value="SEND">
+<br>
+<a href="https://itunes.apple.com/us/app/float-credit/id986176540?ls=1&mt=8"><img id="app" src="http://static1.squarespace.com/static/5228e8f5e4b01999564feadd/t/547e059ee4b08f554c955f74/1417545119116/App+Store+Badge+Large.png" ></a><br>
+<h1><span> or </span></h1><br>
+<input type="phone" class="inp" placeholder="Enter email address to Join the List"><br>
+<input type="submit" id="joinlist" value="JOIN THE LIST!">
+</div>
+
 <body>
     <div class="navbar">
 	<div class="top"><a href="index.html" ><img src="http://hellofloat.com/assets/images/float-logo.png" ></a></div>
@@ -16,7 +41,7 @@
 		
 			<li id="about" >WHO WE ARE</li>
 			<li ><a href="about.html">WHAT WE DO</a></li>
-			<li id="prio"><a id="p" href="#prio">GET PRIORITY ACCESS</a></li>
+			<li id="prio"><a id="p" href="javascript:prio();">GET PRIORITY ACCESS</a></li>
 			
 		</ul></div>
 	<br><br>
